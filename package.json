@@ -1,0 +1,52 @@
+{
+  "name": "artwork-template",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "./",
+  "dependencies": {
+    "@jam3/webgl-components": "^0.0.12",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "gsap": "^3.10.4",
+    "lil-gui": "^0.16.1",
+    "mathjs": "^10.6.1",
+    "query-string": "^7.1.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "5.0.0",
+    "three": "^0.141.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "publish": "cd ../../gallery && npm i && npm run publish"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "artwork": {
+    "title": "The Stages of Growth",
+    "artist": "Vanessa Liu",
+    "description": "An interactive creative experience which aims to convey 4 stages of personal growth through the use of textures, colours and lighting applied to floating spheres.",
+    "tags": "threejs, webgl, textures, personal growth, spheres"
+  }
+}

@@ -1,0 +1,94 @@
+/* .App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.Header {
+  position: absolute;
+  z-index: 1;
+} */
+
+/* .canvas {
+  z-index: 0;
+} */
+
+.ui-container {
+  position: absolute;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  font-family:'Courier New', Courier, monospace
+}
+
+.mainTitle, .stage {
+  width: 100%;
+  font-size: larger;
+  background-color: transparent;
+  text-align: center;
+  margin-top: 10vh;
+  /* position: fixed; */
+  color: white;
+}
+
+.stage {
+  margin-top: 5vh;
+}
+
+.canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.quotes {
+  margin-top: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 6rem;
+}
+
+.stages {
+  /* position: absolute; */
+  top: 80%;
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  margin: 0 2rem 0;
+  padding: 0.5rem;
+  border: 0.5px dotted #ffffff;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family:'Courier New', Courier, monospace;
+}
+
+#btn1:hover {
+  background-color: rgba(172, 95, 95, 0.272);
+}
+#btn2:hover {
+  background-color: rgba(255, 255, 255, 0.272);
+}
+#btn3:hover {
+  background-color: rgba(101, 213, 230, 0.272);
+}
+#btn4:hover {
+  background-color: rgba(166, 233, 148, 0.272);
+}
